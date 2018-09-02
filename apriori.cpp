@@ -196,7 +196,7 @@ bool prune(vector<int> v,map<vector<int> ,int> m)
 int main()
 {
 	srand(time(NULL));
-	//generate_transdb();
+	generate_transdb();
 	map<vector<int> ,int> m;
 	map<vector<int> ,int>::iterator mit,it,tit;
 	getcount(m);
